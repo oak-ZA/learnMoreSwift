@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.6.0)
+  - CYLTabBarController (1.17.6)
+  - Moya (11.0.1):
+    - Moya/Core (= 11.0.1)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - Moya
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CYLTabBarController
+    - Moya
+    - Result
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  CYLTabBarController: c374643dea6dadece8bdff9c70f7387f8ffd7d08
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+
+PODFILE CHECKSUM: eb0a2402e72f038c9a4c705df5251545012e283a
+
+COCOAPODS: 1.5.3

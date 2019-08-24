@@ -51,6 +51,7 @@
 		A6C0BCAA2311161B000AE788 /* LearnMoreSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnMoreSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C0BCAE2311161B000AE788 /* LearnMoreSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreSwiftUITests.swift; sourceTree = "<group>"; };
 		A6C0BCB02311161B000AE788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C0BCBD23111EB9000AE788 /* LearnMoreSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnMoreSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 				A6C0BC952311161B000AE788 /* Assets.xcassets */,
 				A6C0BC972311161B000AE788 /* LaunchScreen.storyboard */,
 				A6C0BC9A2311161B000AE788 /* Info.plist */,
+				A6C0BCBD23111EB9000AE788 /* LearnMoreSwift-Bridging-Header.h */,
 			);
 			path = LearnMoreSwift;
 			sourceTree = "<group>";
@@ -282,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LearnMoreSwift-checkManifestLockResult.txt",
 			);
@@ -418,6 +416,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengxing/Desktop/SWIFT/LearnMoreSwift/LearnMoreSwift/LearnMoreSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -471,6 +470,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dengxing/Desktop/SWIFT/LearnMoreSwift/LearnMoreSwift/LearnMoreSwift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
